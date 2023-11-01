@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $tariff = $_POST["tariff"];
 
     // Встановіть адресу, на яку ви хочете отримувати заявки
-    $to = "nrg.space@atmosfera.com";
+    $to = "";
 
     // Встановіть тему листа
     $subject = "Нова заявка з форми";
@@ -66,9 +66,9 @@ $headers .= 'X-Mailer: PHP/' . phpversion();
     mail($to, $subject, $message);
     
     // Відправка повідомлення в телеграм
-    $telegramToken = "5748195669:AAGN-knKZqtAYAnubmrJ_SjPFFYzV8CN8gU";
-    // $chatId = "5163083486";
-    $chatId = "-1001879058170"; 
+    $telegramToken = "";
+    // $chatId = "";
+    $chatId = ""; 
     $telegramMessage = "Ім'я: " . $name . "\n"
                      . "Телефон: " . $phone . "\n"
                      . "Email: " . $email . "\n"
