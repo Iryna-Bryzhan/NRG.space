@@ -1,0 +1,132 @@
+body {
+  margin: 0 auto;
+  position: relative;
+}
+.wrap {
+  width: 80%;
+  margin: 0 auto;
+}
+section {
+  overflow: hidden;
+}
+.header-privacy {
+  background-color: #201b33;
+  padding: 1% 10%;
+  height: 60px;
+  top: 0px;
+  left: 0;
+  right: 0;
+  display: flex;
+  position: fixed;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  z-index: 10;
+}
+
+.logo img {
+  width: 65%;
+}
+.privacy-title {
+  margin-top: 10%;
+  margin-bottom: 3%;
+  text-align: center;
+  font-size: 2.1rem;
+}
+.privasy-text {
+  font-size: 1.5rem;
+  line-height: 120%;
+  text-align: justify;
+}
+@media (min-width: 0) and (max-width: 359px) {
+  .header-privacy {
+    padding: 2% 10%;
+  }
+  .logo img {
+    width: 50%;
+  }
+  .privacy-title {
+    margin-top: 27%;
+    margin-bottom: 3%;
+    font-size: 1.3rem;
+  }
+  .privasy-text {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 360px) and (max-width: 576px) {
+  .header-privacy {
+    padding: 2% 10%;
+  }
+  .logo img {
+    width: 55%;
+  }
+  .privacy-title {
+    margin-top: 25%;
+    margin-bottom: 3%;
+    font-size: 1.4rem;
+  }
+  .privasy-text {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 577px) and (max-width: 767px) {
+  .header-privacy {
+    padding: 1% 10%;
+  }
+  .logo img {
+    width: 55%;
+  }
+  .privacy-title {
+    margin-top: 16%;
+    margin-bottom: 3%;
+    font-size: 1.6rem;
+  }
+  .privasy-text {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .logo img {
+    width: 55%;
+  }
+  .privacy-title {
+    margin-top: 13%;
+    margin-bottom: 3%;
+    font-size: 1.8rem;
+  }
+  .privasy-text {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header-privacy {
+    padding: 1% 10%;
+  }
+  .logo img {
+    width: 60%;
+  }
+  .privacy-title {
+    margin-top: 12%;
+    margin-bottom: 3%;
+    font-size: 1, 9rem;
+  }
+  .privasy-text {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .header-privacy {
+    padding: 1% 10%;
+  }
+  .logo img {
+    width: 60%;
+  }
+  .privacy-title {
+    font-size: 2rem;
+  }
+  .privasy-text {
+    font-size: 1.3rem;
+  }
+}
